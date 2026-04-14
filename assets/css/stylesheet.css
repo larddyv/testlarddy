@@ -1,0 +1,18 @@
+.cuadro {
+    display: grid;
+    width: 50%;
+   padding: auto;
+    margin-top: 0 ;
+    color: green;
+    animation: box;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+.texto {
+    display: grid;
+    width: auto;
+    padding: auto;
+}
+
