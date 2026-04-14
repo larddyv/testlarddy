@@ -1,18 +1,27 @@
-.cuadro {
-    display: grid;
-    width: 50%;
-   padding: auto;
-    margin-top: 0 ;
-    color: green;
-    animation: box;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+body {
+            font-family: 'Share Tech', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
 
-}
+        h2 {
+            /* Ejemplo usando Saira Stencil */
+            font-family: 'Saira Stencil One', system-ui; 
+            font-weight: 400;
+            color: #333;
+        }
 
-.texto {
-    display: grid;
-    width: auto;
-    padding: auto;
-}
+        .cuadro {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .cuadro img {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+        }
 
